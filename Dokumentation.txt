@@ -1,0 +1,17 @@
+Iteration 1
+===========
+
+F1 Standort CRUD
+Minimales Funktionalität.
+    1.  Standort anlegen.
+    2.  Standort anzeigen.
+    3.  Standort bearbeiten.
+    4.  Standort entfernen.
+
+F2 Synonyme CRUD
+Jedes Standort kann Synonyme enthalten.
+
+F3 Backup Restore
+Standort Daten sichern und wiederherstellen.
+    1.  Standort Daten importieren.
+    2.  Standort Daten exportieren. 
