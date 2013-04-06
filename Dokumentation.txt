@@ -1,6 +1,10 @@
 Iteration 1
 ===========
+F1
+F3
 
+Features
+========
 F1 Standort CRUD
 Minimales Funktionalität.
     1.  Standort anlegen.
@@ -15,3 +19,12 @@ F3 Backup Restore
 Standort Daten sichern und wiederherstellen.
     1.  Standort Daten importieren.
     2.  Standort Daten exportieren. 
+
+Datenstrukturen
+===============
+Place
+Basis Datenstruktur zu Beschreibung von Standorten. In sourceUrls Listen
+werden urls angezeigt wo dieses Standort nachrescherschiert werden kann.
+name        :   String
+type        :   String
+sourceUrls  :   List<String>
