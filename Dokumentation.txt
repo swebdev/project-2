@@ -1,24 +1,30 @@
-Iteration 1
-===========
-F1
-F3
+Iteration 1 (F1, F3, A1, A2, A3)
+
+Aufgaben 
+========
+A1  Anwendung mit Mongodb verbinden.
+A2  Anwendung auf heroku hosten.
+A3  NodeJs Fronden bereitstellen.
 
 Features
 ========
-F1 Standort CRUD
+F1  Standort CRUD
 Minimales Funktionalität.
     1.  Standort anlegen.
     2.  Standort anzeigen.
     3.  Standort bearbeiten.
     4.  Standort entfernen.
 
-F2 Synonyme CRUD
+F2  Synonyme CRUD
 Jedes Standort kann Synonyme enthalten.
 
-F3 Backup Restore
+F3  Backup Restore
 Standort Daten sichern und wiederherstellen.
     1.  Standort Daten importieren.
     2.  Standort Daten exportieren. 
+
+F4  Rechte Management
+Benutzer Befugnisse in den System einschränken und steuern.
 
 Datenstrukturen
 ===============
