@@ -1,0 +1,2 @@
+# node modules nicht versionisieren
+node_modules/**/*
