@@ -1,3 +1,4 @@
+// basiert auf https://github.com/shapeshed/express_example
 var express = require('express'),
     routes  = require('./routes'),
     user    = require('./routes/user'),
