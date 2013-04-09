@@ -1,7 +1,5 @@
 // basiert auf https://github.com/shapeshed/express_example
 var express = require('express'),
-    routes  = require('./routes'),
-    user    = require('./routes/user'),
     http    = require('http'),
     path    = require('path');
 
@@ -15,7 +13,6 @@ app.configure(function() {
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(app.router);
-    app.use(require('stylus').middleware(__dirname + '/public'));
     app.use(express.static(path.join(__dirname, 'public')));
 });
 
